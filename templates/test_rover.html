@@ -134,14 +134,12 @@
         const commandDurationInput = document.getElementById('command-duration');
         const testConnectionBtn = document.getElementById('test-connection-btn');
 
-        // Función para actualizar el área de respuesta
         function logResponse(message) {
             const timestamp = new Date().toLocaleTimeString();
             responseOutput.innerHTML += `\n[${timestamp}] ${message}`;
             responseOutput.scrollTop = responseOutput.scrollHeight;
         }
 
-        // Función para enviar comando al rover
         async function sendCommand(command) {
             const roverIp = roverIpInput.value.trim();
             const duration = commandDurationInput.value;
@@ -176,7 +174,6 @@
             }
         }
 
-        // Probar conexión con el rover
         async function testConnection() {
             const roverIp = roverIpInput.value.trim();
 
@@ -188,13 +185,10 @@
             try {
                 logResponse(`Probando conexión con rover en: ${roverIp}`);
 
-                // Primero intentar con la nueva API
                 try {
                     const statusUrl = `http://${roverIp}/status`;
                     logResponse(`Probando: ${statusUrl}`);
-
                     const response = await fetch(statusUrl);
-
                     if (response.ok) {
                         const data = await response.json();
                         logResponse(`✅ Conexión exitosa (API nueva)`);
@@ -205,13 +199,10 @@
                     logResponse(`API nueva no disponible: ${e.message}`);
                 }
 
-                // Si la API nueva falla, intentar con la API antigua
                 try {
                     const baseUrl = `http://${roverIp}/`;
                     logResponse(`Probando API antigua: ${baseUrl}`);
-
                     const response = await fetch(baseUrl);
-
                     if (response.ok) {
                         logResponse(`✅ Conexión exitosa (API antigua)`);
                         return;
@@ -227,19 +218,50 @@
             }
         }
 
-        // Manejar eventos de botones de control
+        // Nuevo manejador de controles del rover (estable para móvil y PC)
         document.querySelectorAll('.control-btn').forEach(button => {
-            button.addEventListener('click', function () {
-                const command = this.getAttribute('data-cmd');
+            const command = button.getAttribute('data-cmd');
+            let repeatTimeout = null;
+            let isPressed = false;
+
+            function sendAndRepeat() {
+                if (!isPressed) return;
+                commandDurationInput.value = 0;
+                sendCommand(command);
+                repeatTimeout = setTimeout(sendAndRepeat, 300);
+            }
+
+            function handlePressStart(e) {
+                e.preventDefault();
+                if (isPressed) return;
+                isPressed = true;
+                sendAndRepeat();
+            }
+
+            function handlePressEnd(e) {
+                e.preventDefault();
+                isPressed = false;
+                clearTimeout(repeatTimeout);
+                sendCommand('S');
+            }
+
+            button.addEventListener('mousedown', handlePressStart);
+            button.addEventListener('mouseup', handlePressEnd);
+            button.addEventListener('mouseleave', handlePressEnd);
+            button.addEventListener('touchstart', handlePressStart, { passive: false });
+            button.addEventListener('touchend', handlePressEnd, { passive: false });
+
+            button.addEventListener('click', function (e) {
+                e.preventDefault();
+                commandDurationInput.value = 500;
                 sendCommand(command);
             });
         });
 
-        // Manejar evento de botón de prueba de conexión
         testConnectionBtn.addEventListener('click', testConnection);
 
-        // Log inicial
         logResponse('🚗 Sistema inicializado. Listo para enviar comandos al rover.');
     });
 </script>
+
 {% endblock %}

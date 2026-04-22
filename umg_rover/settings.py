@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-xv$)k=u*g6f$g5=i8b6d%$+g(ry3r=c20r4eop0e4c_6y$qn9q'
+SECRET_KEY = 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -29,7 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'usuarios.apps.UsuariosConfig',
+    'usuarios',
+    
 ]
 
 MIDDLEWARE = [
@@ -73,11 +74,11 @@ DATABASES = {
     },
     'mysql': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'compilador25z19',
-        'USER': 'usr_comp25z19_oper',
-        'PASSWORD': '[qRnCTk$:W>r',
-        'HOST': 'www.server.daossystem.pro',
-        'PORT': '3301',
+        'NAME': 'xxxxxx',
+        'USER': 'xxxxx',
+        'PASSWORD': 'xxxxxxx',
+        'HOST': 'xxxxxxxxx',
+        'PORT': 'xxxx',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
         },
@@ -151,9 +152,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'zddeveloper7@gmail.com'
-EMAIL_HOST_PASSWORD = 'pdrz ffya asqh buzs' 
-DEFAULT_FROM_EMAIL = 'UMG Basic Rover'
+EMAIL_HOST_USER = '@gmail.com'
+EMAIL_HOST_PASSWORD = 'xxxx xxxx xxxx' 
+DEFAULT_FROM_EMAIL = 'Basic Rover'
 
 # Twilio para WhatsApp (opcional)
 # Para usar WhatsApp necesitas una cuenta en Twilio (www.twilio.com)

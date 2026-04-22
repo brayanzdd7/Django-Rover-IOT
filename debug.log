@@ -39179,3 +39179,1176 @@ INFO 2025-05-30 20:30:46,730 basehttp "GET /logout/ HTTP/1.1" 302 0
 INFO 2025-05-30 20:30:46,730 basehttp "GET /logout/ HTTP/1.1" 302 0
 INFO 2025-05-30 20:30:46,736 basehttp "GET / HTTP/1.1" 200 20124
 INFO 2025-05-30 20:30:46,736 basehttp "GET / HTTP/1.1" 200 20124
+INFO 2025-05-31 00:46:21,406 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 00:46:21,406 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 00:46:23,952 basehttp "GET / HTTP/1.1" 200 20124
+INFO 2025-05-31 00:46:23,952 basehttp "GET / HTTP/1.1" 200 20124
+INFO 2025-05-31 00:46:24,018 basehttp "GET /static/img/minecraft_background.jpg HTTP/1.1" 304 0
+INFO 2025-05-31 00:46:24,018 basehttp "GET /static/img/minecraft_background.jpg HTTP/1.1" 304 0
+WARNING 2025-05-31 00:46:24,334 log Not Found: /favicon.ico
+WARNING 2025-05-31 00:46:24,334 log Not Found: /favicon.ico
+WARNING 2025-05-31 00:46:24,334 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+WARNING 2025-05-31 00:46:24,334 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+INFO 2025-05-31 00:46:28,900 services Ingreso registrado con ID: 753
+INFO 2025-05-31 00:46:28,901 views Sesión iniciada: usuario_id=425, ingreso_id=753
+INFO 2025-05-31 00:46:28,925 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-05-31 00:46:28,925 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-05-31 00:46:36,791 basehttp "GET /dashboard/ HTTP/1.1" 200 11277009
+INFO 2025-05-31 00:46:36,791 basehttp "GET /dashboard/ HTTP/1.1" 200 11277009
+INFO 2025-05-31 00:46:51,163 basehttp "GET /editor/ HTTP/1.1" 200 121334
+INFO 2025-05-31 00:46:51,163 basehttp "GET /editor/ HTTP/1.1" 200 121334
+INFO 2025-05-31 00:47:03,592 basehttp "POST /api/compile/ HTTP/1.1" 200 132
+INFO 2025-05-31 00:47:03,592 basehttp "POST /api/compile/ HTTP/1.1" 200 132
+INFO 2025-05-31 00:47:03,613 rover_communication Inicializado RoverCommunicator con IP: https://1b452fe58124.ngrok.app/
+INFO 2025-05-31 00:47:03,613 rover_communication Probando conexión con rover en: https://1b452fe58124.ngrok.app/status
+INFO 2025-05-31 00:47:04,942 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 00:47:04,943 rover_communication Enviando comando: https://1b452fe58124.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 00:47:07,189 basehttp "POST /api/execute/ HTTP/1.1" 200 153
+INFO 2025-05-31 00:47:07,189 basehttp "POST /api/execute/ HTTP/1.1" 200 153
+INFO 2025-05-31 00:47:11,641 basehttp "POST /api/compile/ HTTP/1.1" 200 132
+INFO 2025-05-31 00:47:11,641 basehttp "POST /api/compile/ HTTP/1.1" 200 132
+INFO 2025-05-31 00:47:11,647 rover_communication Inicializado RoverCommunicator con IP: https://1b452fe58124.ngrok.app/
+INFO 2025-05-31 00:47:11,647 rover_communication Probando conexión con rover en: https://1b452fe58124.ngrok.app/status
+INFO 2025-05-31 00:47:12,830 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 00:47:12,831 rover_communication Enviando comando: https://1b452fe58124.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 00:47:15,074 basehttp "POST /api/execute/ HTTP/1.1" 200 153
+INFO 2025-05-31 00:47:15,074 basehttp "POST /api/execute/ HTTP/1.1" 200 153
+INFO 2025-05-31 00:47:47,537 basehttp "GET /editor/ HTTP/1.1" 200 121334
+INFO 2025-05-31 00:47:47,537 basehttp "GET /editor/ HTTP/1.1" 200 121334
+INFO 2025-05-31 00:47:53,484 basehttp "GET /test-rover/ HTTP/1.1" 200 19784
+INFO 2025-05-31 00:47:53,484 basehttp "GET /test-rover/ HTTP/1.1" 200 19784
+INFO 2025-05-31 00:48:19,244 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:48:20,195 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:48:20,198 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F&duration=500
+INFO 2025-05-31 00:48:20,882 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:20,882 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:20,889 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:48:21,227 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:21,789 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:21,789 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:21,842 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:21,842 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:22,544 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:22,544 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:22,552 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:48:22,872 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:22,872 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:23,563 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:23,784 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:48:23,877 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:48:23,881 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B&duration=500
+INFO 2025-05-31 00:48:24,140 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:24,140 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:24,155 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:48:25,312 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:25,312 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:25,478 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:25,676 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:25,676 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:25,711 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:25,711 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:25,808 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:25,808 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:25,877 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:25,877 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:27,031 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:27,031 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:27,037 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:27,657 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:48:27,758 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:48:27,758 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B&duration=500
+INFO 2025-05-31 00:48:28,642 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:28,642 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:28,642 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:29,284 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:29,284 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:29,358 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:29,358 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:29,395 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:29,395 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:30,161 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:30,161 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:30,166 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:31,008 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:48:31,143 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:48:31,144 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B&duration=500
+INFO 2025-05-31 00:48:31,758 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:31,758 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:31,758 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:32,666 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:32,666 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:32,693 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:32,693 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:32,741 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:32,741 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:33,234 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:33,234 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:33,241 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:33,368 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:48:34,888 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:34,888 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:34,892 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:34,963 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:34,963 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:34,965 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:48:35,230 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:48:35,234 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B&duration=500
+INFO 2025-05-31 00:48:36,722 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:36,722 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:36,731 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:36,774 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:36,774 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:36,777 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:48:36,857 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:36,857 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:36,882 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:36,882 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:38,315 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:38,315 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:38,321 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:48:38,359 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:38,359 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:38,499 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:39,892 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:39,892 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:39,894 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:48:40,036 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:40,036 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:40,038 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:41,612 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:41,612 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:41,619 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:48:41,637 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:41,637 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:42,029 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:43,159 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:43,159 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:43,165 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:48:43,479 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:43,479 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:43,479 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:44,818 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:44,818 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:45,109 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:45,109 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:45,124 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:46,773 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:46,773 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:46,778 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:48,371 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:48,371 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:48,372 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:49,811 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:48:49,878 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:48:49,881 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F&duration=500
+INFO 2025-05-31 00:48:50,049 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:50,049 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:50,061 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:51,697 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:51,697 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:51,791 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:51,791 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:51,808 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:51,808 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:51,835 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:51,835 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:51,837 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:52,409 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:48:52,524 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:48:52,528 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F&duration=500
+INFO 2025-05-31 00:48:53,392 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:53,392 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:53,397 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:53,963 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:53,963 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:54,106 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:54,106 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:54,195 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:54,195 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:54,592 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:48:54,745 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:48:54,749 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F&duration=500
+INFO 2025-05-31 00:48:54,932 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:54,932 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:54,936 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:48:56,323 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:56,323 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:56,407 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:56,407 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:56,475 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:56,475 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:56,599 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:56,599 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:48:56,949 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:48:57,079 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:48:57,084 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F&duration=500
+INFO 2025-05-31 00:48:58,610 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:58,610 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:48:58,639 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:58,639 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:48:58,681 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:58,681 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:48:59,148 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:00,681 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:00,681 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:03,347 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:49:03,430 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:03,435 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F&duration=500
+INFO 2025-05-31 00:49:05,014 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:05,014 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:05,051 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:49:05,051 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:49:05,082 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:05,082 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:05,430 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:49:05,550 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:05,556 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F&duration=500
+INFO 2025-05-31 00:49:07,091 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:07,091 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:07,129 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:49:07,129 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:49:07,160 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:07,160 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:07,755 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:09,420 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:09,420 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:09,422 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:10,928 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:11,037 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:11,037 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:11,037 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:11,052 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:11,058 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 00:49:12,565 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:12,565 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:12,667 views Intentando formato antiguo: http://1b452fe58124.ngrok.app/?State=R
+INFO 2025-05-31 00:49:12,678 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:12,678 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:12,678 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:12,774 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:12,774 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:13,260 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:14,169 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 282
+INFO 2025-05-31 00:49:14,169 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 282
+INFO 2025-05-31 00:49:14,236 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:14,236 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:14,246 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:14,939 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:14,939 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:14,944 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:15,882 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:15,882 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:15,886 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:16,354 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:16,354 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:16,357 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:17,359 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:17,359 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:17,778 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:17,778 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:17,778 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:19,326 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:19,326 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:19,334 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:20,857 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:20,857 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:20,857 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:20,882 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:20,889 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 00:49:22,585 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:22,585 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:22,600 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:22,609 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:49:22,609 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:49:22,645 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:22,645 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:23,265 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:23,944 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:49:24,009 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:24,009 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:24,025 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:24,269 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:24,279 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B&duration=500
+INFO 2025-05-31 00:49:24,842 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:24,842 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:24,848 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:25,560 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:25,560 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:25,569 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:49:25,636 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:25,636 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:25,637 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:25,963 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:49:25,963 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:49:26,038 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:26,038 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:26,470 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:26,470 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:26,480 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:27,088 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:27,088 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:27,150 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:27,150 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:27,153 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:27,223 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:27,963 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:27,963 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:27,963 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:28,693 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:28,693 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:28,696 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:28,758 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:28,758 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:28,758 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:29,439 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:29,439 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:30,212 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:30,212 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:30,212 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:30,292 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:30,292 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:31,812 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:31,812 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:31,817 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:32,137 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:32,278 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:33,340 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:33,340 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:33,349 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:33,654 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:33,654 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:33,657 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:33,713 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:33,713 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:33,719 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:34,906 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:34,906 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:34,906 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:35,198 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:35,198 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:35,202 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:35,247 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:35,247 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:35,250 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:36,510 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:36,510 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:36,528 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:36,848 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:36,848 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:36,860 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:36,893 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:36,893 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:36,897 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:38,092 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:38,191 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:38,191 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:38,193 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:38,580 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:38,580 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:38,585 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:38,645 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:38,645 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:38,647 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:38,681 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:38,984 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:40,002 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:40,002 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:40,002 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:40,075 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:40,075 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:40,086 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:40,396 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:40,396 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:40,411 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:40,460 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:40,460 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:40,463 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:40,512 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:40,512 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:40,514 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:40,641 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:40,641 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:40,641 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:41,713 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:41,713 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:41,725 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:41,824 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:41,824 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:41,840 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=R
+INFO 2025-05-31 00:49:42,243 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:42,243 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:42,284 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:42,284 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:42,345 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:42,345 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:42,345 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:49:42,442 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:42,442 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:42,442 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:43,302 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:43,302 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:43,413 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:43,413 basehttp "GET /debug-rover/?cmd=R&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:49:43,885 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:43,885 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:49:43,982 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:43,982 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:43,985 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:45,629 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:45,629 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:45,634 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:47,174 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:47,174 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:47,174 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:49:48,644 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:49:48,644 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:53:46,758 basehttp "GET /test-rover/ HTTP/1.1" 200 19794
+INFO 2025-05-31 00:53:46,758 basehttp "GET /test-rover/ HTTP/1.1" 200 19794
+INFO 2025-05-31 00:53:59,792 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:53:59,881 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:53:59,885 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F&duration=500
+INFO 2025-05-31 00:54:00,297 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:01,606 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:54:01,606 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:54:01,669 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:01,669 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:01,728 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:01,728 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:01,958 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:01,958 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:02,385 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:02,769 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:54:04,030 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:04,030 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:04,335 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:04,335 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:04,337 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:54:04,442 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:54:04,444 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F&duration=500
+INFO 2025-05-31 00:54:05,960 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:05,960 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:05,975 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:54:06,016 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:54:06,016 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:54:06,084 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:06,084 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:06,153 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:06,945 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:54:07,588 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:07,588 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:07,592 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:54:07,644 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:07,644 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:07,650 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:08,184 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:54:08,185 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B&duration=500
+INFO 2025-05-31 00:54:08,511 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:08,511 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:08,511 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:54:09,215 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:09,215 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:09,225 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:09,279 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:09,279 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:09,279 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:54:09,722 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:09,722 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:09,787 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:54:09,787 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 00:54:10,013 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:10,013 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:10,020 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:54:10,779 views Intentando formato antiguo: http://1b452fe58124.ngrok.app/?State=F
+INFO 2025-05-31 00:54:10,824 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:10,824 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:11,131 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:11,609 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:11,609 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:11,617 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:54:12,311 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 282
+INFO 2025-05-31 00:54:12,311 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 282
+INFO 2025-05-31 00:54:12,319 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=F
+INFO 2025-05-31 00:54:12,599 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:12,599 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:12,609 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:13,123 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:13,123 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:13,134 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=B
+INFO 2025-05-31 00:54:13,881 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:13,881 basehttp "GET /debug-rover/?cmd=F&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:14,104 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:14,104 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:14,649 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:14,649 basehttp "GET /debug-rover/?cmd=B&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 00:54:19,067 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:19,335 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:54:20,705 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:20,705 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:20,708 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:20,847 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:20,847 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:20,855 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:54:22,372 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:22,372 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:22,372 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:22,444 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:22,444 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:22,444 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:54:23,986 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:23,986 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:23,986 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:24,055 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:24,055 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:24,059 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:54:25,694 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:25,694 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:25,698 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:25,730 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:25,730 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:25,732 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:54:27,236 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:27,236 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:27,240 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:27,313 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:27,313 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:27,316 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S
+INFO 2025-05-31 00:54:28,786 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:28,786 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:28,786 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:28,845 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:28,845 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 00:54:29,942 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:29,942 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:29,944 views Enviando comando al rover: http://1b452fe58124.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 00:54:31,053 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 00:54:31,053 basehttp "GET /debug-rover/?cmd=S&ip=1b452fe58124.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 06:52:15,400 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 06:52:15,400 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 06:52:17,427 basehttp "GET / HTTP/1.1" 200 20124
+INFO 2025-05-31 06:52:17,427 basehttp "GET / HTTP/1.1" 200 20124
+WARNING 2025-05-31 06:52:18,193 log Not Found: /favicon.ico
+WARNING 2025-05-31 06:52:18,193 log Not Found: /favicon.ico
+WARNING 2025-05-31 06:52:18,195 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+WARNING 2025-05-31 06:52:18,195 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+INFO 2025-05-31 06:53:19,963 services Ingreso registrado con ID: 762
+INFO 2025-05-31 06:53:19,973 views Sesión iniciada: usuario_id=428, ingreso_id=762
+INFO 2025-05-31 06:53:19,998 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-05-31 06:53:19,998 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-05-31 06:53:20,683 basehttp "GET /editor/ HTTP/1.1" 200 741345
+INFO 2025-05-31 06:53:20,683 basehttp "GET /editor/ HTTP/1.1" 200 741345
+WARNING 2025-05-31 06:53:28,242 log Not Found: /api/coreografias/
+WARNING 2025-05-31 06:53:28,242 log Not Found: /api/coreografias/
+WARNING 2025-05-31 06:53:28,242 basehttp "GET /api/coreografias/ HTTP/1.1" 404 7661
+WARNING 2025-05-31 06:53:28,242 basehttp "GET /api/coreografias/ HTTP/1.1" 404 7661
+INFO 2025-05-31 06:53:30,669 basehttp "GET /static/music/4.mp3 HTTP/1.1" 304 0
+INFO 2025-05-31 06:53:30,669 basehttp "GET /static/music/4.mp3 HTTP/1.1" 304 0
+INFO 2025-05-31 06:53:39,661 basehttp "POST /api/compile/ HTTP/1.1" 200 6397
+INFO 2025-05-31 06:53:39,661 basehttp "POST /api/compile/ HTTP/1.1" 200 6397
+INFO 2025-05-31 06:53:39,728 rover_communication Inicializado RoverCommunicator con IP: https://b2c043e949f1.ngrok.app/
+INFO 2025-05-31 06:53:39,728 rover_communication Probando conexión con rover en: https://b2c043e949f1.ngrok.app/status
+WARNING 2025-05-31 06:53:39,749 log Not Found: /favicon.ico
+WARNING 2025-05-31 06:53:39,749 log Not Found: /favicon.ico
+WARNING 2025-05-31 06:53:39,751 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+WARNING 2025-05-31 06:53:39,751 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+WARNING 2025-05-31 06:53:42,050 rover_communication Error al conectar con API nueva: HTTPSConnectionPool(host='b2c043e949f1.ngrok.app', port=443): Read timed out. (read timeout=1)
+INFO 2025-05-31 06:53:42,051 rover_communication Probando conexión con rover (API antigua) en: https://b2c043e949f1.ngrok.app/
+INFO 2025-05-31 06:53:43,375 rover_communication Conexión exitosa (API antigua)
+INFO 2025-05-31 06:53:43,375 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=I&duration=3000
+INFO 2025-05-31 06:53:46,583 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:53:47,874 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:53:48,552 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:53:49,707 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:53:50,430 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:53:51,203 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:53:51,708 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:53:51,964 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:53:51,998 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:53:52,705 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:53:53,420 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:53:54,558 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:53:55,487 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:53:56,683 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:53:57,392 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:53:57,430 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:53:57,758 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:53:58,261 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:53:58,509 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:53:59,233 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:53:59,741 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:53:59,977 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:54:01,179 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:01,952 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:54:03,126 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:03,900 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 06:54:04,595 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:54:05,101 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 06:54:05,349 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:54:05,856 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 06:54:06,106 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:54:07,610 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:54:08,320 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:09,136 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:54:09,171 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:54:09,429 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:54:09,942 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:10,197 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:54:11,367 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:12,160 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:54:13,321 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:14,120 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:54:15,308 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:16,088 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:54:17,257 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:17,989 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:54:19,178 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:19,976 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:54:21,150 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:21,892 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:54:23,033 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:23,842 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:54:25,049 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:25,837 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:54:25,875 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 06:54:26,132 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 06:54:28,136 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 06:54:28,855 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 06:54:29,942 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 06:54:31,142 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 06:54:32,420 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:54:33,651 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:34,411 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:54:35,568 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:36,348 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:54:37,518 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:38,089 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:54:39,273 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:40,022 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 06:54:41,208 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:41,839 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 06:54:43,075 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 06:54:43,725 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=I&duration=4000
+INFO 2025-05-31 06:54:48,413 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 06:54:49,715 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=F&duration=2960
+INFO 2025-05-31 06:54:53,317 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 06:54:54,760 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=F&duration=2960
+INFO 2025-05-31 06:54:58,342 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 06:54:59,677 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=F&duration=2960
+INFO 2025-05-31 06:55:03,333 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 06:55:04,658 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=F&duration=2960
+INFO 2025-05-31 06:55:08,366 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=2000
+INFO 2025-05-31 06:55:11,046 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 06:55:12,240 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 06:55:13,492 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 06:55:15,776 rover_communication Enviando comando: https://b2c043e949f1.ngrok.app/command?cmd=R&duration=2000
+INFO 2025-05-31 08:21:50,527 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 08:21:50,527 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 08:22:36,731 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-05-31 08:22:36,731 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-05-31 08:25:00,168 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-05-31 08:25:00,168 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-05-31 08:26:13,566 basehttp "POST /api/compile/ HTTP/1.1" 200 310
+INFO 2025-05-31 08:26:13,566 basehttp "POST /api/compile/ HTTP/1.1" 200 310
+INFO 2025-05-31 08:26:13,587 rover_communication Inicializado RoverCommunicator con IP: https://c8b73e3d9a29.ngrok.app/
+INFO 2025-05-31 08:26:13,588 rover_communication Probando conexión con rover en: https://c8b73e3d9a29.ngrok.app/status
+INFO 2025-05-31 08:26:14,740 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 08:26:14,741 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=2960
+INFO 2025-05-31 08:26:17,922 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:26:19,332 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 08:26:21,584 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:26:23,212 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 08:26:25,487 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 08:26:28,175 basehttp - Broken pipe from ('127.0.0.1', 58037)
+
+INFO 2025-05-31 08:26:28,175 basehttp - Broken pipe from ('127.0.0.1', 58037)
+
+WARNING 2025-05-31 08:26:33,649 log Not Found: /api/coreografias/
+WARNING 2025-05-31 08:26:33,649 log Not Found: /api/coreografias/
+WARNING 2025-05-31 08:26:33,649 basehttp "GET /api/coreografias/ HTTP/1.1" 404 7661
+WARNING 2025-05-31 08:26:33,649 basehttp "GET /api/coreografias/ HTTP/1.1" 404 7661
+INFO 2025-05-31 08:26:36,448 basehttp "GET /static/music/2.mp3 HTTP/1.1" 304 0
+INFO 2025-05-31 08:26:36,448 basehttp "GET /static/music/2.mp3 HTTP/1.1" 304 0
+INFO 2025-05-31 08:26:39,576 basehttp "POST /api/compile/ HTTP/1.1" 200 3414
+INFO 2025-05-31 08:26:39,576 basehttp "POST /api/compile/ HTTP/1.1" 200 3414
+INFO 2025-05-31 08:26:39,629 rover_communication Inicializado RoverCommunicator con IP: https://c8b73e3d9a29.ngrok.app/
+INFO 2025-05-31 08:26:39,629 rover_communication Probando conexión con rover en: https://c8b73e3d9a29.ngrok.app/status
+WARNING 2025-05-31 08:26:39,655 log Not Found: /favicon.ico
+WARNING 2025-05-31 08:26:39,655 log Not Found: /favicon.ico
+WARNING 2025-05-31 08:26:39,656 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+WARNING 2025-05-31 08:26:39,656 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+INFO 2025-05-31 08:26:40,756 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 08:26:40,756 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=565
+INFO 2025-05-31 08:26:41,532 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:26:42,651 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:26:44,228 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:26:46,014 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:26:47,540 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:26:49,090 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:26:50,576 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:26:52,111 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:26:53,319 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=210
+INFO 2025-05-31 08:26:54,350 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=210
+INFO 2025-05-31 08:26:55,136 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:27:05,700 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:27:06,850 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:27:07,815 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:27:18,412 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:27:19,468 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:27:20,483 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:27:21,701 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:27:22,976 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:27:24,069 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:27:25,245 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:27:26,515 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:27:27,702 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:27:28,945 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:27:30,207 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:27:31,643 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:27:33,044 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:27:43,653 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:27:45,202 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:27:46,695 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:27:48,111 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:27:49,195 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:27:50,434 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:27:51,825 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:27:53,365 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:27:54,586 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:27:55,716 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:27:57,713 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:27:59,291 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 08:28:01,908 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:28:03,329 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 08:28:06,026 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:28:07,594 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:28:09,173 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:28:10,166 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:28:11,258 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:28:12,317 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:28:23,100 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=2000
+INFO 2025-05-31 08:28:25,905 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=12000
+INFO 2025-05-31 08:28:38,634 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=2000
+INFO 2025-05-31 08:28:41,431 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=2000
+INFO 2025-05-31 08:28:44,185 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:28:54,757 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:28:55,839 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:28:56,883 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:29:39,271 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 08:29:39,271 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 08:29:44,805 basehttp "GET / HTTP/1.1" 200 641038
+INFO 2025-05-31 08:29:44,805 basehttp "GET / HTTP/1.1" 200 641038
+INFO 2025-05-31 08:29:49,202 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-05-31 08:29:49,202 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-05-31 08:30:38,021 basehttp "POST /api/compile/ HTTP/1.1" 200 310
+INFO 2025-05-31 08:30:38,021 basehttp "POST /api/compile/ HTTP/1.1" 200 310
+INFO 2025-05-31 08:30:38,034 rover_communication Inicializado RoverCommunicator con IP: https://b2c043e949f1.ngrok.app/
+INFO 2025-05-31 08:30:38,034 rover_communication Probando conexión con rover en: https://b2c043e949f1.ngrok.app/status
+INFO 2025-05-31 08:30:39,445 rover_communication Probando conexión con rover (API antigua) en: https://b2c043e949f1.ngrok.app/
+INFO 2025-05-31 08:30:40,728 basehttp "POST /api/execute/ HTTP/1.1" 200 100
+INFO 2025-05-31 08:30:40,728 basehttp "POST /api/execute/ HTTP/1.1" 200 100
+INFO 2025-05-31 08:30:45,208 basehttp "POST /api/compile/ HTTP/1.1" 200 310
+INFO 2025-05-31 08:30:45,208 basehttp "POST /api/compile/ HTTP/1.1" 200 310
+INFO 2025-05-31 08:30:45,219 rover_communication Inicializado RoverCommunicator con IP: https://b2c043e949f1.ngrok.app/
+INFO 2025-05-31 08:30:45,219 rover_communication Probando conexión con rover en: https://b2c043e949f1.ngrok.app/status
+INFO 2025-05-31 08:30:46,224 rover_communication Probando conexión con rover (API antigua) en: https://b2c043e949f1.ngrok.app/
+INFO 2025-05-31 08:30:47,347 basehttp "POST /api/execute/ HTTP/1.1" 200 100
+INFO 2025-05-31 08:30:47,347 basehttp "POST /api/execute/ HTTP/1.1" 200 100
+INFO 2025-05-31 08:32:34,943 basehttp "POST /api/compile/ HTTP/1.1" 200 310
+INFO 2025-05-31 08:32:34,943 basehttp "POST /api/compile/ HTTP/1.1" 200 310
+INFO 2025-05-31 08:32:34,950 rover_communication Inicializado RoverCommunicator con IP: https://c8b73e3d9a29.ngrok.app/
+INFO 2025-05-31 08:32:34,958 rover_communication Probando conexión con rover en: https://c8b73e3d9a29.ngrok.app/status
+INFO 2025-05-31 08:32:36,311 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 08:32:36,315 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=2960
+INFO 2025-05-31 08:32:36,598 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 08:32:39,561 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:32:40,272 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 08:32:42,973 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:32:44,704 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 08:32:47,435 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 08:32:50,674 basehttp - Broken pipe from ('127.0.0.1', 58193)
+
+INFO 2025-05-31 08:32:50,674 basehttp - Broken pipe from ('127.0.0.1', 58193)
+
+INFO 2025-05-31 08:33:03,121 basehttp "POST /api/compile/ HTTP/1.1" 200 311
+INFO 2025-05-31 08:33:03,121 basehttp "POST /api/compile/ HTTP/1.1" 200 311
+INFO 2025-05-31 08:33:03,132 rover_communication Inicializado RoverCommunicator con IP: https://c8b73e3d9a29.ngrok.app/
+INFO 2025-05-31 08:33:03,133 rover_communication Probando conexión con rover en: https://c8b73e3d9a29.ngrok.app/status
+INFO 2025-05-31 08:33:04,801 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 08:33:04,804 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=12000
+INFO 2025-05-31 08:33:17,023 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:33:18,820 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 08:33:21,485 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:33:23,096 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 08:33:26,114 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 08:33:29,716 basehttp - Broken pipe from ('127.0.0.1', 58327)
+
+INFO 2025-05-31 08:33:29,716 basehttp - Broken pipe from ('127.0.0.1', 58327)
+
+INFO 2025-05-31 08:34:08,486 basehttp "POST /api/compile/ HTTP/1.1" 200 311
+INFO 2025-05-31 08:34:08,486 basehttp "POST /api/compile/ HTTP/1.1" 200 311
+INFO 2025-05-31 08:34:08,501 rover_communication Inicializado RoverCommunicator con IP: https://c8b73e3d9a29.ngrok.app/
+INFO 2025-05-31 08:34:08,501 rover_communication Probando conexión con rover en: https://c8b73e3d9a29.ngrok.app/status
+INFO 2025-05-31 08:34:10,122 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 08:34:10,123 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=12000
+INFO 2025-05-31 08:34:22,342 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:34:24,045 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 08:34:26,703 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:34:28,718 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 08:34:31,324 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 08:34:34,559 basehttp - Broken pipe from ('127.0.0.1', 58345)
+
+INFO 2025-05-31 08:34:34,559 basehttp - Broken pipe from ('127.0.0.1', 58345)
+
+INFO 2025-05-31 08:34:58,655 basehttp "GET /test-rover/ HTTP/1.1" 200 639463
+INFO 2025-05-31 08:34:58,655 basehttp "GET /test-rover/ HTTP/1.1" 200 639463
+INFO 2025-05-31 08:35:13,328 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S
+INFO 2025-05-31 08:35:14,467 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=F
+INFO 2025-05-31 08:35:14,591 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=500
+INFO 2025-05-31 08:35:15,016 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 08:35:15,016 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 08:35:15,021 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S
+INFO 2025-05-31 08:35:15,884 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:35:16,492 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 08:35:16,492 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 08:35:16,641 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 08:35:16,641 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 08:35:16,793 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 08:35:16,793 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 08:35:17,540 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:17,540 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:17,746 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:35:19,233 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:19,233 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:19,245 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:35:20,877 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:20,877 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:20,888 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:35:22,600 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:22,600 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:46,959 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:35:48,236 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=F
+INFO 2025-05-31 08:35:48,356 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S
+INFO 2025-05-31 08:35:48,356 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=500
+ERROR 2025-05-31 08:35:50,196 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:35:50,230 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:35:50,230 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:35:50,233 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:35:50,502 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 08:35:50,502 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 08:35:50,529 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 08:35:50,529 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 08:35:50,634 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 08:35:50,634 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 08:35:51,861 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:51,861 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:51,865 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:35:53,522 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:53,522 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:53,526 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:35:55,374 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:55,374 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:35:55,386 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:35:57,558 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=F
+INFO 2025-05-31 08:35:57,665 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S
+INFO 2025-05-31 08:35:57,671 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=500
+ERROR 2025-05-31 08:35:58,678 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:35:58,709 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:35:58,709 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:35:58,712 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:35:59,691 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 08:35:59,691 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 156
+INFO 2025-05-31 08:35:59,741 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 08:35:59,741 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 187
+INFO 2025-05-31 08:35:59,859 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 08:35:59,859 basehttp "GET /debug-rover/?cmd=F&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 169
+INFO 2025-05-31 08:36:00,609 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:36:00,609 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:36:00,615 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:03,633 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:36:03,633 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:36:03,635 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:05,439 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:36:05,439 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:36:05,451 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:07,620 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:07,796 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+ERROR 2025-05-31 08:36:08,794 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:08,818 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:08,818 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:08,828 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:10,341 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:10,341 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:11,583 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+ERROR 2025-05-31 08:36:12,006 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+ERROR 2025-05-31 08:36:12,006 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:12,038 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:12,038 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:12,045 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:12,067 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:12,067 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:12,071 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+ERROR 2025-05-31 08:36:12,366 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:12,394 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:12,394 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:12,398 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+ERROR 2025-05-31 08:36:13,807 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:13,839 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:13,839 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+ERROR 2025-05-31 08:36:13,872 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:13,898 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:13,898 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+ERROR 2025-05-31 08:36:14,951 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:14,969 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:14,969 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+ERROR 2025-05-31 08:36:15,752 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+ERROR 2025-05-31 08:36:15,769 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:15,798 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:15,798 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:15,816 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:15,816 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+ERROR 2025-05-31 08:36:16,005 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:16,037 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:16,037 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:19,283 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:20,158 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=B
+INFO 2025-05-31 08:36:20,373 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S
+INFO 2025-05-31 08:36:20,376 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=500
+ERROR 2025-05-31 08:36:22,538 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:22,571 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:22,571 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:22,577 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+ERROR 2025-05-31 08:36:23,893 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:23,933 basehttp "GET /debug-rover/?cmd=B&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:23,933 basehttp "GET /debug-rover/?cmd=B&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 190
+ERROR 2025-05-31 08:36:23,995 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:24,017 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:24,017 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app HTTP/1.1" 200 190
+ERROR 2025-05-31 08:36:24,079 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:24,105 basehttp "GET /debug-rover/?cmd=B&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:24,105 basehttp "GET /debug-rover/?cmd=B&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+ERROR 2025-05-31 08:36:25,755 views Error de conexión con el rover: HTTPSConnectionPool(host='c8b73e3d9a29.ngrok.app', port=443): Read timed out. (read timeout=2)
+INFO 2025-05-31 08:36:25,795 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:25,795 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 190
+INFO 2025-05-31 08:36:57,229 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:58,939 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:36:58,939 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:36:58,940 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:36:59,822 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-05-31 08:36:59,822 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-05-31 08:37:01,062 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:37:01,062 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:37:01,066 views Enviando comando al rover: http://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=500
+INFO 2025-05-31 08:37:03,351 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+INFO 2025-05-31 08:37:03,351 basehttp "GET /debug-rover/?cmd=S&ip=c8b73e3d9a29.ngrok.app&duration=500 HTTP/1.1" 200 200
+WARNING 2025-05-31 08:37:05,493 log Not Found: /api/coreografias/
+WARNING 2025-05-31 08:37:05,493 log Not Found: /api/coreografias/
+WARNING 2025-05-31 08:37:05,493 basehttp "GET /api/coreografias/ HTTP/1.1" 404 7661
+WARNING 2025-05-31 08:37:05,493 basehttp "GET /api/coreografias/ HTTP/1.1" 404 7661
+INFO 2025-05-31 08:37:10,205 basehttp "POST /api/compile/ HTTP/1.1" 200 3414
+INFO 2025-05-31 08:37:10,205 basehttp "POST /api/compile/ HTTP/1.1" 200 3414
+INFO 2025-05-31 08:37:10,261 rover_communication Inicializado RoverCommunicator con IP: c8b73e3d9a29.ngrok.app
+INFO 2025-05-31 08:37:10,264 rover_communication Probando conexión con rover en: http://c8b73e3d9a29.ngrok.app/status
+WARNING 2025-05-31 08:37:10,308 log Not Found: /favicon.ico
+WARNING 2025-05-31 08:37:10,308 log Not Found: /favicon.ico
+WARNING 2025-05-31 08:37:10,309 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+WARNING 2025-05-31 08:37:10,309 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+INFO 2025-05-31 08:37:12,320 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 08:37:12,320 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=565
+INFO 2025-05-31 08:37:13,209 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:37:15,043 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:37:17,124 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:37:18,529 rover_communication Comando enviado exitosamente (API nueva)
+INFO 2025-05-31 08:37:19,333 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:37:20,486 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:37:22,617 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:37:24,582 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:37:26,697 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:37:28,548 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=210
+INFO 2025-05-31 08:37:30,075 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=210
+INFO 2025-05-31 08:37:31,612 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:37:42,907 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:37:44,588 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:37:46,236 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:37:57,520 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:37:59,227 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:38:00,824 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:38:02,619 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:38:04,477 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:38:06,250 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:38:08,130 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:38:09,880 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:38:11,753 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:38:13,670 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:38:15,462 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:38:16,175 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:38:18,128 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:38:29,399 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:38:31,471 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:38:32,488 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:38:34,716 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:38:36,388 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:38:38,066 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:38:40,244 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:38:42,346 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:38:43,059 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:38:45,607 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:38:47,698 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:38:49,946 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 08:38:53,250 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:38:55,403 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 08:38:58,756 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:39:00,935 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:39:03,526 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:39:05,125 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:39:06,720 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:39:08,184 rover_communication Enviando comando: http://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:53:43,272 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 08:53:43,272 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 08:53:54,406 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-05-31 08:53:54,406 basehttp "GET /editor/ HTTP/1.1" 200 741003
+WARNING 2025-05-31 08:54:05,029 log Not Found: /api/coreografias/
+WARNING 2025-05-31 08:54:05,029 log Not Found: /api/coreografias/
+WARNING 2025-05-31 08:54:05,036 basehttp "GET /api/coreografias/ HTTP/1.1" 404 7661
+WARNING 2025-05-31 08:54:05,036 basehttp "GET /api/coreografias/ HTTP/1.1" 404 7661
+INFO 2025-05-31 08:54:08,312 basehttp "POST /api/compile/ HTTP/1.1" 200 3414
+INFO 2025-05-31 08:54:08,312 basehttp "POST /api/compile/ HTTP/1.1" 200 3414
+INFO 2025-05-31 08:54:08,366 rover_communication Inicializado RoverCommunicator con IP: https://c8b73e3d9a29.ngrok.app/
+INFO 2025-05-31 08:54:08,367 rover_communication Probando conexión con rover en: https://c8b73e3d9a29.ngrok.app/status
+WARNING 2025-05-31 08:54:08,402 log Not Found: /favicon.ico
+WARNING 2025-05-31 08:54:08,402 log Not Found: /favicon.ico
+WARNING 2025-05-31 08:54:08,406 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+WARNING 2025-05-31 08:54:08,406 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+INFO 2025-05-31 08:54:10,424 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 08:54:10,425 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=565
+INFO 2025-05-31 08:54:11,201 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:54:12,878 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:54:14,766 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:54:16,810 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:54:18,826 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:54:20,897 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=B&duration=800
+INFO 2025-05-31 08:54:22,892 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=800
+INFO 2025-05-31 08:54:24,950 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:54:26,736 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=210
+INFO 2025-05-31 08:54:28,107 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=210
+INFO 2025-05-31 08:54:29,444 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:54:40,623 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:54:42,029 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:54:43,660 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 08:54:54,805 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:54:56,425 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=300
+INFO 2025-05-31 08:54:57,984 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:54:59,847 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:55:01,627 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:55:03,281 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:55:05,237 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:55:06,919 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:55:08,450 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:55:10,223 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:55:11,820 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 08:55:13,486 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 08:55:15,099 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=10000
+INFO 2025-05-31 09:31:59,420 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 09:31:59,420 autoreload Watching for file changes with StatReloader
+INFO 2025-05-31 09:32:03,572 basehttp "GET / HTTP/1.1" 200 641038
+INFO 2025-05-31 09:32:03,572 basehttp "GET / HTTP/1.1" 200 641038
+INFO 2025-05-31 09:32:08,087 services Ingreso registrado con ID: 798
+INFO 2025-05-31 09:32:08,087 views Sesión iniciada: usuario_id=428, ingreso_id=798
+INFO 2025-05-31 09:32:08,122 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-05-31 09:32:08,122 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-05-31 09:32:10,888 basehttp "GET /editor/ HTTP/1.1" 200 741345
+INFO 2025-05-31 09:32:10,888 basehttp "GET /editor/ HTTP/1.1" 200 741345
+INFO 2025-05-31 09:32:24,273 basehttp "POST /api/compile/ HTTP/1.1" 200 310
+INFO 2025-05-31 09:32:24,273 basehttp "POST /api/compile/ HTTP/1.1" 200 310
+INFO 2025-05-31 09:32:24,295 rover_communication Inicializado RoverCommunicator con IP: https://c8b73e3d9a29.ngrok.app/
+INFO 2025-05-31 09:32:24,301 rover_communication Probando conexión con rover en: https://c8b73e3d9a29.ngrok.app/status
+INFO 2025-05-31 09:32:26,460 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 09:32:26,461 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=2960
+INFO 2025-05-31 09:32:29,630 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=R&duration=500
+INFO 2025-05-31 09:32:31,500 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 09:32:34,362 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=L&duration=500
+INFO 2025-05-31 09:32:36,237 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=F&duration=1500
+INFO 2025-05-31 09:32:39,025 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=2000
+INFO 2025-05-31 09:32:42,457 basehttp - Broken pipe from ('127.0.0.1', 59120)
+
+INFO 2025-05-31 09:32:42,457 basehttp - Broken pipe from ('127.0.0.1', 59120)
+
+WARNING 2025-05-31 09:32:44,117 log Not Found: /api/coreografias/
+WARNING 2025-05-31 09:32:44,117 log Not Found: /api/coreografias/
+WARNING 2025-05-31 09:32:44,117 basehttp "GET /api/coreografias/ HTTP/1.1" 404 7661
+WARNING 2025-05-31 09:32:44,117 basehttp "GET /api/coreografias/ HTTP/1.1" 404 7661
+INFO 2025-05-31 09:32:55,407 basehttp "POST /api/compile/ HTTP/1.1" 200 823
+INFO 2025-05-31 09:32:55,407 basehttp "POST /api/compile/ HTTP/1.1" 200 823
+INFO 2025-05-31 09:32:55,424 rover_communication Inicializado RoverCommunicator con IP: https://c8b73e3d9a29.ngrok.app/
+INFO 2025-05-31 09:32:55,425 rover_communication Probando conexión con rover en: https://c8b73e3d9a29.ngrok.app/status
+WARNING 2025-05-31 09:32:55,478 log Not Found: /favicon.ico
+WARNING 2025-05-31 09:32:55,478 log Not Found: /favicon.ico
+WARNING 2025-05-31 09:32:55,478 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+WARNING 2025-05-31 09:32:55,478 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+INFO 2025-05-31 09:32:57,117 rover_communication Conexión exitosa (API nueva)
+INFO 2025-05-31 09:32:57,118 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=I&duration=3000
+INFO 2025-05-31 09:33:00,333 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 09:33:02,343 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 09:33:03,715 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 09:33:05,531 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 09:33:06,665 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 09:33:08,309 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 09:33:09,736 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 09:33:12,021 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 09:33:13,252 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 09:33:15,017 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 09:33:16,271 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 09:33:18,118 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 09:33:19,705 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 09:33:21,551 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 09:33:22,851 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 09:33:24,488 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 09:33:25,648 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=H&duration=500
+INFO 2025-05-31 09:33:27,401 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 09:33:28,649 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=J&duration=500
+INFO 2025-05-31 09:33:30,636 rover_communication Enviando comando: https://c8b73e3d9a29.ngrok.app/command?cmd=S&duration=30
+INFO 2025-05-31 09:33:31,796 basehttp - Broken pipe from ('127.0.0.1', 59145)
+
+INFO 2025-05-31 09:33:31,796 basehttp - Broken pipe from ('127.0.0.1', 59145)
+
+INFO 2025-08-01 21:35:34,296 autoreload Watching for file changes with StatReloader
+INFO 2025-08-01 21:35:34,296 autoreload Watching for file changes with StatReloader
+INFO 2025-08-01 21:35:36,713 basehttp "GET / HTTP/1.1" 200 20124
+INFO 2025-08-01 21:35:36,713 basehttp "GET / HTTP/1.1" 200 20124
+INFO 2025-08-01 21:35:37,052 basehttp "GET /static/img/minecraft_background.jpg HTTP/1.1" 200 1155171
+INFO 2025-08-01 21:35:37,052 basehttp "GET /static/img/minecraft_background.jpg HTTP/1.1" 200 1155171
+WARNING 2025-08-01 21:35:39,507 log Not Found: /favicon.ico
+WARNING 2025-08-01 21:35:39,507 log Not Found: /favicon.ico
+WARNING 2025-08-01 21:35:39,508 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+WARNING 2025-08-01 21:35:39,508 basehttp "GET /favicon.ico HTTP/1.1" 404 7643
+INFO 2025-08-01 21:35:57,104 services Ingreso registrado con ID: 817
+INFO 2025-08-01 21:35:57,104 views Sesión iniciada: usuario_id=428, ingreso_id=817
+INFO 2025-08-01 21:35:57,130 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-08-01 21:35:57,130 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-08-01 21:36:27,463 services Ingreso registrado con ID: 818
+INFO 2025-08-01 21:36:27,464 views Sesión iniciada: usuario_id=425, ingreso_id=818
+INFO 2025-08-01 21:36:27,484 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-08-01 21:36:27,484 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-08-01 21:36:29,011 basehttp - Broken pipe from ('127.0.0.1', 50809)
+
+INFO 2025-08-01 21:36:29,011 basehttp - Broken pipe from ('127.0.0.1', 50809)
+
+INFO 2025-08-01 21:37:01,333 basehttp "GET / HTTP/1.1" 200 642253
+INFO 2025-08-01 21:37:01,333 basehttp "GET / HTTP/1.1" 200 642253
+INFO 2025-08-01 21:37:28,231 basehttp - Broken pipe from ('127.0.0.1', 50826)
+
+INFO 2025-08-01 21:37:28,231 basehttp - Broken pipe from ('127.0.0.1', 50826)
+
+INFO 2025-08-01 21:37:46,657 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-08-01 21:37:46,657 basehttp "GET /editor/ HTTP/1.1" 200 741003
+INFO 2025-08-01 21:37:53,812 views Cerrando sesión para usuario_id: 428, ingreso_id: 817
+INFO 2025-08-01 21:37:53,813 services Registrando salida para ingreso ID: 817
+INFO 2025-08-01 21:37:54,692 services Resultado del SP registrar_salida: 
+INFO 2025-08-01 21:37:54,693 views Resultado de registrar_salida: Salida registrada exitosamente
+INFO 2025-08-01 21:37:54,721 views Sesión cerrada correctamente
+INFO 2025-08-01 21:37:54,722 basehttp "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-08-01 21:37:54,722 basehttp "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-08-01 21:37:54,733 basehttp "GET / HTTP/1.1" 200 20124
+INFO 2025-08-01 21:37:54,733 basehttp "GET / HTTP/1.1" 200 20124
+INFO 2025-08-01 21:38:01,020 services Ingreso registrado con ID: 819
+INFO 2025-08-01 21:38:01,020 views Sesión iniciada: usuario_id=478, ingreso_id=819
+INFO 2025-08-01 21:38:01,047 basehttp "POST / HTTP/1.1" 302 0
+INFO 2025-08-01 21:38:01,047 basehttp "POST / HTTP/1.1" 302 0
